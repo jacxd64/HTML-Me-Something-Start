@@ -1,1 +1,60 @@
 /* Write your CSS here! */
+body {
+    background-color: rgb(80, 42, 42);
+    margin: 8px;
+    display: block;
+}
+
+p, h1, h2, h3, h4, h5, li {
+    color: white;
+}
+
+#mainHeading {
+    font: 100 50px "Helvetica Neue", Helvetica, sans-serif;
+    color: red;
+}
+
+.funParagraph {
+    font-family: Papyrus, fantasy;
+    color: green;
+}
+
+#l5Flanks {
+    text-align: center;
+}
+
+#l6Routes {
+    text-align: center;
+}
+
+#heavySpots {
+    text-align: center;
+}
+
+.img-small {
+    width: 30%;
+    height: auto;
+    display: inline-block;
+    margin: auto;
+    border-radius: 20px;
+    border: 5px black solid;
+  }
+  
+  .img-medium {
+    width: 45%;
+    height: auto;
+    display: inline-block;
+    margin: auto;
+    border-radius: 20px;
+    border: 5px black solid;
+  }
+  
+  .img-large {
+    width: 75%;
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    border: 5px black solid;
+  }
+  
